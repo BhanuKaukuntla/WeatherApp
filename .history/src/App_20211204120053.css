@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.main{
+  margin-left: 10rem;
+}
+
+.bar{
+  position: relative;
+  top: 80px;
+  left: 20rem;
+}
+
+.title{
+  /* margin-left: 1rem; */
+  /* background-color: red; */
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  margin-top: auto;
+  font-weight: 400;
+  margin-left: 3rem;
+}
+
+.search{
+  border-radius: 2px;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.searchButton{
+  color: black;
+  background-color: rgb(211, 179, 179);
+}
+
+.city{
+  margin-left: 12rem;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.maxmin{
+  color: black;
+  margin-right: 20rem;
+  margin-left: 2rem; 
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.weather{
+  /* margin-left: 2rem; */
+  margin-right: auto;
+  /* padding-left: 0; */
+  font-weight: bold;
+}
+
+.button{
+  color: black;
+  background-color: rgb(170, 170, 170);
+  padding: 7px;
+  border-radius: 2px;
+}
+
+.box{
+  width: 600px;
+  border: 1px solid rgb(5, 5, 5);
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  right: 120px;
+  top: 100px;
+  left: 170px;
+  /* bottom: 50px; */
+}
+
+.temp{
+  position: relative;
+  left: 240px;
+  /* bottom: 10px; */
+  font-size: xxx-large;
+}
+
+.input{
+  /* width: 100%; */
+  height: 30px;
+  border: 1px solid rgb(5, 5, 5);
+  border-radius: 2px;
+  padding: 19px;
+  margin-bottom: 10px;
+  margin-right: 0.5rem;
+  /* border: 0; */
+}
+
+@media only screen and (max-width: 600px) {
+  .main{
+    position: relative;
+    top: 90px;
+    right: 300px;
+    justify-content: center;  
+  }
+  .button{
+    position: relative;
+    top: -50px;
+    left: 160px;
+  }
+  .input{
+    width: 9rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .main{
+    position: relative;
+    top: 90px;
+    right: 300px;  
+  }
+  .input{
+    width: 9rem;
+  }
+}

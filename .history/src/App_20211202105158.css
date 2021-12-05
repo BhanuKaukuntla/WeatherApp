@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  align-items: center;
+  display: flex;
+}
+
+.main{
+  margin-left: 5rem;
+}
+
+.title{
+  margin-left: 5rem;
+  background-color: red;
+}
+

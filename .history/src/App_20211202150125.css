@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.main{
+  margin-left: 10rem;
+}
+
+.title{
+  margin-left: 5rem;
+  /* background-color: red; */
+  font-size: xx-large;
+  margin-bottom: 1rem;
+  margin-top: auto;
+}
+
+.search{
+  border-radius: 2px;
+  margin-right: 1rem;
+}
+
+.searchButton{
+  color: black;
+  background-color: rgb(211, 179, 179);
+}
+
+.city{
+  margin-left: 12rem;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.maxmin{
+  color: black;
+  margin-right: 20rem;
+  margin-left: auto; 
+  padding-left: 0;
+}
+
+.weather{
+  text-align: justify;
+  text-align-last: justify;
+  color: red;
+}
